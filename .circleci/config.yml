@@ -10,9 +10,8 @@ jobs:
      - run:
          name: Checkout staff
          command: |
-            git clone git@github.com:99/kolhoz-ui.git
-            git fetch
-            git checkout test-it-good 
+            git clone --depth 5 git@github.com:99/kolhoz-ui.git --branch test-it-good 
+
 workflows:
 # Name the workflow "welcome"
   welcome:
