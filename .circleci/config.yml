@@ -11,6 +11,7 @@ jobs:
          name: Checkout staff
          command: |
             git clone --depth 5 git@github.com:99/kolhoz-ui.git --branch test-it-good 
+            ls -lah
 
 workflows:
 # Name the workflow "welcome"
