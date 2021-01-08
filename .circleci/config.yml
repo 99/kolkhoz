@@ -3,8 +3,8 @@ version: 2.1
 
 jobs:
   test:
-    macos:
-      xcode: "11.1.0"
+    docker:
+      - image: circleci/buildpack-deps:bionic
     steps:
      - checkout
      - run:
