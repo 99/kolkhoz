@@ -10,7 +10,7 @@ jobs:
      - run:
          name: Checkout staff
          command: |
-            git clone git@github.com:99/kolhoz-ui.git --branch test-it-good 
+            git clone git@github.com:99/k-ui.git 
             cd kolhoz-ui 
             ls -lah
 
